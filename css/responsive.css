@@ -1,0 +1,100 @@
+/* ==================================================================
+ 	for extra small device 
+ ===================================================================== */
+@media (max-width: 575.98px) {
+
+
+	.header{
+		padding-bottom: 140px;
+    	background-position: bottom;
+    	background-size: auto;
+	}
+	.header .header_item .inner_item h1{
+		font-size: 100px;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	.header .header_item h5{
+		padding-right: 0;
+	}
+
+	.body_content .content_right{
+		margin-top: 30px;
+	}
+
+	.body_content .content_right h3{
+		padding: 0;
+		font-size: 26px;
+	}
+
+	.body_content .content_right p span{
+		padding: 0;
+	}
+
+}
+
+
+
+
+/* ==================================================================
+ 	for small device 
+ ===================================================================== */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+ 
+
+}
+
+
+
+/* ==================================================================
+ 	for medium device 
+ ===================================================================== */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+	.header{
+		background-size: auto;
+    	background-position: bottom;
+	}
+  	.header .header_item .inner_item h1{
+  		font-size: 100px;
+  		margin-top: -20px;
+    	margin-bottom: -15px;
+  	}
+
+  	.header .header_item h5{
+  		padding-right: 0;
+  	}
+
+  	.body_content .content_right h3{
+  		padding: 0;
+  		font-size: 28px;
+  	}
+
+  	.body_content .content_right p span{
+  		padding: 0;
+  	}
+
+}
+
+
+
+/* ==================================================================
+ 	for large device 
+ ===================================================================== */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+
+}
+
+/* for xl device */
+/* ====================== */
+
+@media (min-width: 1200px) {
+
+}

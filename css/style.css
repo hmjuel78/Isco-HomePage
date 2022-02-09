@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+img{
+    vertical-align: middle;
+}
+
+a{
+	color: #0563C1;
+}
+
+body{
+	font-family: 'PT Sans', sans-serif;
+}
+
+/* ====== common css ends ====== */
+
+.header{
+	background: url(../images/header_bg.png) no-repeat center/cover;
+	padding-top: 40px;
+	padding-bottom: 160px;
+}
+.header .header_item .inner_item{
+	float: left;
+}
+.header .header_item .inner_item h1{
+	font-size: 136px;
+	color: #202C57;
+	margin: 0;
+	margin-top: -37px;
+	text-transform: uppercase;
+	margin-bottom: -25px;
+	text-shadow: 5px 5px 8px rgba(150, 150, 150, 1);
+}
+.header .header_item .inner_item p{
+	font-size: 14px;
+	color: #438AC4;
+	margin: 0;
+	padding-left: 10px;
+}
+.header .header_item h5{
+	text-transform: uppercase;
+	font-size: 20px;
+	padding-right: 120px;
+}
+
+.body_content{
+	margin-top: 30px;
+	padding-bottom: 40px;
+}
+.body_content .body_content_left{
+	background: #203864;
+	padding: 10px;
+	padding-bottom: 30px;
+}
+.body_content .body_content_left h4{
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+}
+.body_content .body_content_left p{
+	color: #fff;
+	font-size: 13px;
+}
+.body_content .body_content_left h5{
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+}
+.body_content .body_content_left .srt_item {
+	margin-top: 20px;
+}
+.body_content .body_content_left .srt_item h6{
+	color: #fff;
+	font-size: 13px;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+.body_content .body_content_left .srt_item li{
+	color: #fff;
+	font-size: 13px;
+}
+.body_content .body_content_left .srt_item li span{
+	margin-right: 30px;
+	float: right;
+}
+
+.body_content .content_right h2{
+	background: #203864;
+	font-size: 20px;
+	color: #fff;
+	font-weight: bold;
+	padding: 5px 10px;
+}
+.body_content .content_right h3{
+	text-align: center;
+	font-size: 36px;
+	color: #000000;
+	font-weight: bold;
+	padding: 0 50px;
+	margin-top: 20px;
+}
+.body_content .content_right img{
+	padding: 0 50px;
+}
+
+.body_content .content_right p span{
+	padding: 0 115px;
+	display: inline-block;
+	font-size: 13px;
+	margin: 0;
+	font-weight: 500;
+	text-align: center;
+}
+
+.body_content .content_right p {
+	margin: 0;
+	text-align: left;
+	font-weight: 500;
+	color: #141624;
+	font-size: 16px;
+}
+.body_content .content_right p a{
+	text-decoration: underline;
+}
